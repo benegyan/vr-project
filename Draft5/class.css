@@ -1,0 +1,37 @@
+   table {
+            margin: 0 auto
+        }
+
+        table,td,th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 0 5px;
+            border-collapse: collapse;
+        }
+
+        table tr:nth-child(even) {
+            background-color: lightgreen;
+        }
+
+        table tr:hover {
+            background-color: #2554ad;
+            transition: 0.5s
+        }
+        /* try to use id for h2 below to avoid the conflict with h2 in index.html */
+        h2 {                          
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+
+        #passed {
+            background-color: lightgray
+        }
+
+/* try to add a class for <section> to avoid the conflict with courses in index.html related to border line */
+        .courses {
+            border: none;
+        }
+
+        aside {
+            border-left: 1px solid green
+        }
